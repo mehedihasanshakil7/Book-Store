@@ -38,12 +38,12 @@ $index=0;
         <input type="number" name="pages" placeholder="Enter No. of Pages" required> <br>
         <label for="isbn">ISBN</label> <br>
         <input type="text" name="isbn" placeholder="Enter ISBN No."> <br>
-        <input type="submit" name="submit" value="submit">
+        <input type="submit" name="submit" value="Submit">
     </form>
     <br><br><br>
     <div style="position: absolute; top: 10px; right: 10px;">
         <form action="search.php" method="post">
-            <input type="text" name="search" placeholder="Search...">
+            <input type="text" name="search" placeholder="Title or Author">
             <input type="submit" value="Search">
         </form>
         <table border="1">
@@ -66,7 +66,7 @@ $index=0;
                     <td><?= $book['available']?></td>
                     <td><?= $book['pages'] ?> </td>
                     <td><?= $book['isbn'] ?></td>
-                    <td><a href="update.php?index=<?php echo $index?>">Update</a></td>
+                    <td><a href="update_book.php?index=<?php echo $index?>">Update</a></td>
                     <td><a href="delete.php?index=<?php echo $index?>">Delete</a></td>
                 </tr>
                 <?php $index++; ?>

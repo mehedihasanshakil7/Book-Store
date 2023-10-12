@@ -3,8 +3,8 @@
         "title": "To Kill A Mockingbird",
         "author": "Harper Lee",
         "available": "Yes",
-        "pages": "336",
-        "isbn": "9780061120094"
+        "pages": 336,
+        "isbn": 9780061120084
     },
     {
         "title": "1984",
@@ -17,7 +17,7 @@
         "title": "One Hundred Years Of Solitude",
         "author": "Gabriel Garcia Marquez",
         "available": "No",
-        "pages": "457",
-        "isbn": "9785267006323"
+        "pages": 457,
+        "isbn": 9785267006323
     }
 ]

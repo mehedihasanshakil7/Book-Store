@@ -35,7 +35,7 @@ if(isset($_POST['search'])) {
             <td><?= $book['pages'] ?> </td>
             <td><?= $book['isbn'] ?></td>
             <td><a href="delete.php?index=<?php echo $key?>">Delete</a></td>
-            <td><a href="update.php?index=<?php echo $key?>">Update</a></td>
+            <td><a href="update_book.php?index=<?php echo $key?>">Update</a></td>
         </tr>
         <?php endforeach; ?>
     </tbody>
